@@ -1,0 +1,38 @@
+/*
+color theme >>>
+#141414 bgcolor
+#884b22 fgcolor orangesh
+#882222c5 border_colors_and_text_shadow redish
+#224488 heading_color bluesh
+*/
+body {
+    background-color: #141414;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Arial';
+    max-width: 700px;
+    /*margin-left: 1ch;*/
+    /*margin-right: 1.5ch;*/
+    color: #884b22;
+    margin:0 auto;
+}
+
+.title{
+    text-align: center;
+    /* border-bottom: 2px solid #882222c5;*/
+	/* width: fit-content; */
+	color: #224488;
+    font-size: 50px;
+    
+    
+
+    
+}
+
+.bodyp{
+    padding: 5px;
+    margin-left: 1ch;
+    margin-right: 1.5ch;
+    /* border: 1px solid #224488; */
+    color: #ffff;
+    font-size: 16px;
+}

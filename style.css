@@ -1,0 +1,78 @@
+/*
+color theme >>>
+#141414 bgcolor
+#884b22 fgcolor orangesh
+#882222c5 border_colors_and_text_shadow redish
+#224488 heading_color bluesh
+*/
+body {
+    background-color: #141414;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
+    /* margin-left: 1ch; */
+    /* margin-right: 1.5ch; */
+    color: #884b22; /*def text color*/
+    margin:0 auto;
+}
+a, a:hover, a:focus, a:active {  /*remove deful links style*/
+	text-decoration: none;
+	color: inherit;
+	}
+/*
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/theimg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+*/
+#head {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 4px 2px #882222c5; /*redish*/ 
+	color: #224488; /*bluesh*/
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+}
+#subhead {
+	font-size: 14px;
+	text-align: center;
+	color: #882222c5;
+	padding-top: 1px;
+	margin-top: 1px;
+
+}
+.elem {
+	float: left;
+}
+#intro {
+	/* text-align: center; */
+	font-size: 30px;
+	border-bottom: 2px solid #882222c5; 
+	width: fit-content;
+	color: #224488;
+	float: center;
+
+}
+#p {
+	margin-left: 1ch;
+	margin-right: 1.5;
+}
+#posts {
+	font-size: 30px;
+	border-bottom: 2px solid #882222c5;
+	width: fit-content;
+	color: #224488;
+	float: center;
+
+}
+#err {
+	font-size: 100px;
+	float: center;
+	text-align: center;
+	color: #224488;
+	padding: 100px;
+}
